@@ -1,7 +1,7 @@
 {
-    "grobid_server": "http://localhost:8070",
+    "grobid_server": "https://kermitt2-grobid.hf.space/",
     "batch_size": 100,
     "sleep_time": 5,
-    "timeout": 60,
+    "timeout": 120,
     "coordinates": [ "persName", "figure", "ref", "biblStruct", "formula", "s", "note", "title" ]
 }
