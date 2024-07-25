@@ -1,6 +1,6 @@
 # CodeRefine
 
-CodeRefine is a framework designed to improve the quality of code implementations generated for research papers by Large Language Models (LLMs), with a specific focus on GPT-4. This repository contains the pipeline for the CodeRefine system, aiming to enhance code synthesis from research papers through a structured and iterative process.
+CodeRefine is a framework designed to improve the quality of code implementations generated for research papers by Large Language Models (LLMs), with a specific focus on GPT-4o. This repository contains the pipeline for the CodeRefine system, aiming to enhance code synthesis from research papers through a structured and iterative process.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -9,14 +9,13 @@ CodeRefine is a framework designed to improve the quality of code implementation
 - [Directory Structure](#directory-structure)
 - [API Keys](#api-keys)
 - [Running the Pipeline](#running-the-pipeline)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/AbhijitJowhari/CodeRefine.git
    ```
 
 2. Navigate to the cloned directory:
@@ -28,7 +27,7 @@ CodeRefine is a framework designed to improve the quality of code implementation
 
 ### Pipeline Overview
 
-The CodeRefine pipeline consists of several steps designed to extract relevant information from research papers, construct knowledge graphs, and iteratively refine the code output by querying related research papers and utilizing LLMs.
+The CodeRefine pipeline consists of several steps designed to extract relevant information from research papers, construct knowledge graphs, and retrospectively refine the code output by querying related research papers and utilizing LLMs.
 
 ### Directory Structure
 
