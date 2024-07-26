@@ -288,7 +288,7 @@ queries = client_openai.chat.completions.create(
   model=GPT4o,
   messages=[
     {"role": "system", "content": "you are a helpful assistant." + PROMPT_3},
-    {"role": "user", "content": "query_paras.txt:\n"+query_text+"\n,Knowledge graph in json format :\n"+knowledge_graph},
+    {"role": "user", "content": "query_text.txt:\n"+query_text+"\n,Knowledge graph in json format :\n"+knowledge_graph},
     {"role": "assistant", "content": INTERMEDIATE_CODE},
     {"role": "user", "content": PROMPT_4}
   ]
@@ -324,7 +324,7 @@ FINAL_CODE = client_openai.chat.completions.create(
   model=GPT4o,
   messages=[
     {"role": "system", "content": "you are a helpful assistant." + PROMPT_3},
-    {"role": "user", "content": "query_paras.txt:\n"+query_text+"\n,Knowledge graph in json format :\n"+ knowledge_graph},
+    {"role": "user", "content": "query_text.txt:\n"+query_text+"\n,Knowledge graph in json format :\n"+ knowledge_graph},
     {"role": "assistant", "content": INTERMEDIATE_CODE},
     {"role": "user", "content": PROMPT_4},
     {"role": "assistant", "content": str(queries)},
